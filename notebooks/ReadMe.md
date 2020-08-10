@@ -1,8 +1,5 @@
-# Machine Learning Approach
-- Problem Statement
-- Preprocessing
-    - Data Cleansing
-    - Instance selection and partitioning
-    - Data aggregation
-    - Represent transformation
-    - Feature extraction
+# Problem Statement
+We have a dataset from an e-commerce website which sells a variety of products. They track customer behavioural patterns and store it in form of logs. It has been seen that most of the time, there is a gap between the customer's first interaction with the product and the product being bought. In that time, they might surf the web, looking for competitors etc. If the customer has left the website without the purchase being made, the company will showcase them personalized ads to recapture their interest in the product. The problem statement here is to predict whether a particular customer will click on that particular ad or not.
+
+# Dataset
+We are provided with the view log of users (2018/10/15 - 2018/12/11) and the product description. The train data contains the impression logs from 2018/11/15 to 2018/12/13 along with the labels which specifies whether the ad is clicked or not. The model is evaluated on the test data that have impression logs ranging from 2018/12/12 to 2018/12/18.
